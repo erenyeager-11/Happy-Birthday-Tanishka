@@ -611,7 +611,7 @@ video.gif{display:block;width:100%;max-height:300px;object-fit:cover;background:
 </div></section>
 
 <section><div class="card">
-  <h2 class="hand">Match our moments 💑</h2><p class="small">find all the pairs · moves: <b id="mv">0</b></p>
+  <h2 class="hand">Match our moments 💋</h2><p class="small">find all the pairs · moves: <b id="mv">0</b></p>
   <div id="mem"></div><p class="note" id="mw" hidden>Every kiss and hug matched 😘 the real ones are waiting for you 💗</p>
 </div></section>
 
@@ -758,7 +758,7 @@ $('#kiss').onclick=e=>{const r=e.target.getBoundingClientRect(),k=document.creat
  $('#kt').textContent=KT[kn++%KT.length]};
 
 /* memory match */
-const E=['💋','🤗','🫶','😘','🌹','💑'];let first=null,lock=0,mvs=0,pairs=0;
+const E=['💋','🤗','🫶','😘','🌹','👩🏻‍❤️‍💋‍👨🏻'];let first=null,lock=0,mvs=0,pairs=0;
 [...E,...E].sort(()=>Math.random()-.5).forEach(e=>{const b=document.createElement('button');b.textContent='💗';b.onclick=()=>{
  if(lock||b.classList.contains('up')||b.classList.contains('ok'))return;b.textContent=e;b.classList.add('up');
  if(!first){first=b;return}$('#mv').textContent=++mvs;
